@@ -23,3 +23,12 @@ new Map(), Set();
  可以自己实现注册一个，如果有jquery的话，可以使用jquery的$.trim() 方法；
  也可以用过es5-shim,es5-sham解决
 ```
+
+## for 循环正确使用
+```
+ var aArray = ["1", "2", "3", "4"];
+ var oObject = {'name': 'Allen', 'age': '18'};
+ 
+ for (var i in oObject){}
+ for (var i; i < aArray.length; i++){}
+```
