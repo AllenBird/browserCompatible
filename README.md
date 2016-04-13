@@ -20,5 +20,6 @@ new Map(), Set();
 
 ## IE8下的string 不支持 trim方法
 ```
- 可以自己实现注册一个，如果有jquery的话，可以使用jquery的$.trim() 方法
+ 可以自己实现注册一个，如果有jquery的话，可以使用jquery的$.trim() 方法；
+ 也可以用过es5-shim,es5-sham解决
 ```
