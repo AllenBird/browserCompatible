@@ -32,3 +32,8 @@ new Map(), Set();
  for (var i in oObject){}
  for (var i; i < aArray.length; i++){}
 ```
+
+## IE8 不支持 background-size
+```
+ 
+```
