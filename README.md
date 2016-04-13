@@ -12,3 +12,7 @@ new Map(), Set();
 	 => ` value="1" `
 * ` value="02" `  
 	 => ` value="2" `
+## IE8下的localstorage 的清除不支持 delete方法
+```
+ 理论上localstorage也应该正规用removeItem这个方法吧。
+```
