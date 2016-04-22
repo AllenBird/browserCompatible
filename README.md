@@ -47,3 +47,18 @@ new Map(), Set();
   这这这，只能优化代码了，还可以分域名，class样式省着用。
 ```
 
+## IE8 float bug
+```
+  Actually, there is a bug in IE8 where right-floated elements seem to clear:left.
+  http://blogs.msdn.com/b/askie/archive/2009/03/23/right-floated-element-in-internet-explorer-8-is-positioned-differently-than-internet-explorer-7.aspx
+
+  If you don't want to add anything to your HTML at all, you can slightly restructure it for a quick fix. Put the right-floated sidebar first, ie:
+
+  <div id="content-area" class="espacio">
+    <div class="eltitular">HEADER</div>
+    <div id="sidebar">RIGHT CONTENT</div>
+    <div class="lacarta">LEFT CONTENT</div>
+  </div>
+```
+
+
