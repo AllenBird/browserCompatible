@@ -35,5 +35,15 @@ new Map(), Set();
 
 ## IE8 不支持 background-size
 ```
- 
+  补救方法如下： 
+  background-image: url(/assets/images/*.png);
+  background-image: none \9;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/*.png',sizingMethod='scale');
 ```
+
+## IE8 不支持4095以上各css对象
+```
+  这这这，只能优化代码了，还可以分域名，class样式省着用。
+```
+
