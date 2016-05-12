@@ -61,7 +61,7 @@ new Map(), Set();
   </div>
 ```
 
-## IE8 jquery css() bug
+## IE8 window.innerHeight、innerWidth
 ```
- NOT USED!
+ document.documentElement.clientHeight 好吧，得救了
 ```
