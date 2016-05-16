@@ -65,3 +65,13 @@ new Map(), Set();
 ```
  document.documentElement.clientHeight 好吧，得救了
 ```
+
+## 对回车键的响应  
+```
+ 还没有什么明确的交互设计
+```
+
+## 代码判断变量是否存在 使用 typeof xxx == 'undefined'  
+```
+ IE8 下需要写的标准一些
+```
