@@ -1,5 +1,5 @@
 # 前端浏览器兼容
-政采云遇到的兼容性问题汇总
+遇到的兼容性问题汇总
 ## ECMAScript 6 的方法不能直接用。
 ```
 IE11 & Chrome 是支持Map() Set() 的，但是firefox和safari不支持。
@@ -74,4 +74,9 @@ new Map(), Set();
 ## 代码判断变量是否存在 使用 typeof xxx == 'undefined'  
 ```
  IE8 下需要写的标准一些
+```
+## ie9下scrollbar会使得div被shrink
+```
+ div的css修改box-sizing: content-box
+ 具体参照http://stackoverflow.com/questions/23555327/ie9-shrinking-div-on-overflowauto-scrollbar-appearance/23565739#23565739
 ```
